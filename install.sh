@@ -6,6 +6,7 @@ echo
 
 # install
 echo "installing to ~/.local/bin/"
+mkdir -p ~/.local/bin/ 
 cp bin/kappu ~/.local/bin/ 
 
 # .desktop entry
